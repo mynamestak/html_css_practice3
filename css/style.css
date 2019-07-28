@@ -1,0 +1,268 @@
+body {
+    font-size: 14px;
+    font-family: Helvetica;
+    background-color: orange;
+}
+
+body .firstpage {
+    height: 40vw;
+    background: url(../img/first_back.jpg);
+    background-size: cover;
+    background-position: center 32%;
+    color: blue;
+}
+
+/* first_nabvar */
+
+.firstpage navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    padding-bottom: 1rem;
+}
+
+navbar div {
+    font-size: 1.25rem;
+}
+
+.navbar_left .text_red {
+    color: red;
+}
+
+navbar .navbar_right {
+    font-weight: bold;
+}
+
+.navbar_right span {
+    padding: 0 1rem;
+}
+
+.navbar_right i {
+    padding-right: 0.25rem;
+}
+
+.navbar_right .layout {
+    font-weight: 400;
+}
+
+.navbar_right .signup {
+    background: red;
+    padding: 0.5rem;
+}
+
+/* first_middle_box */
+.firstpage .middle_box {
+    font-size: 14px;
+    height:55%;
+    max-width: 15%;
+    text-align: center;
+    margin: 1rem auto 3rem auto;
+    padding: 1rem 3rem;
+    background: rgba(255,0,0,0.5);
+}
+
+.middle_box h1{
+    font-size: 2.25em;
+    color: white;
+    padding: 0.5rem;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    position: relative;
+}
+
+.middle_box h1:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-bottom: 2px solid white;
+    left: 0;
+    bottom: -8px;
+}
+
+.middle_box h1:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-bottom: 2px solid white;
+    left: 0;
+    top: -8px;
+}
+
+
+.middle_box p {
+    font-size: 1em;
+    color: white;
+    margin: 3rem 0;
+}
+
+.middle_box_button p {
+    text-align: center;
+    color: white;
+    font-size: 1.15em;
+    font-weight: bold;
+    border: 2pt solid white;
+    padding: 1rem 0;
+}
+
+/* secondpage */
+
+.secondpage {
+    width: 80%;
+    margin: 2rem auto 0 auto;
+}
+
+.icon {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.icon span {
+    width: 30%;
+    text-align: center;
+}
+
+.icon i {
+    font-size: 3rem;
+}
+
+.icon hr {
+    border-top: 4px double red;
+    width: 60%;
+    margin: auto 0;
+}
+
+.secondpage header {
+    font-size: 1.25rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header span {
+    font-weight: bolder;
+}
+
+.secondpage p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* third page */
+.thirdpage {  
+    width: 80%;
+    height: 30rem;
+    display: flex;
+    margin: 0 auto;
+    padding: 5rem;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.thirdpage .info {
+    text-align: center;
+    width: 70%;
+}
+
+header .button {
+    margin: 2rem 0;
+    text-align: center;
+    border: 2pt solid white;
+    padding: 1rem 1rem;
+    margin: 2rem auto;
+    width: 30%;
+}
+
+.button span {
+    color: white;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+.thirdpage .icons {
+    flex-direction: column;
+    font-size: 5.5rem;
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+    margin: 1rem 0;
+}
+
+ul li {
+    width: 8rem;
+    display: block;
+    text-align: center;
+}
+
+/* fourthpage */
+.fourthpage {
+    width: 80%;
+    margin: 6rem auto;
+}
+
+.three_checks {
+    text-align: center;
+    display: flex;
+}
+
+.three_checks div {
+    width: 30%;
+    margin: 0 2rem;
+}
+
+div i {
+    font-size: 5.5rem;
+}
+
+div .header {
+    font-size: 1.25rem;
+}
+
+/* fifthpage */
+
+.fifthpage {
+    width: 80%;
+    background-color: lightblue;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+.fifthpage .header {
+    text-align: center;
+    font-size: 1.25rem;
+}
+.fifthpage .row_article {
+    display: flex;
+    margin: 3rem auto;
+    text-align: center;
+
+}
+
+div img {
+    max-width: 90%;
+}
+
+.each_p p {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.each_p .title {
+    font-size: 1.25rem;
+}
+
+.fifthpage .button {
+    margin: 2rem 0;
+    text-align: center;
+    border: 2pt solid white;
+    padding: 1rem 1rem;
+    margin: 2rem auto;
+    width: 30%;
+}
